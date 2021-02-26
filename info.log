@@ -1,0 +1,26 @@
+{"message":"select * from \"accounts\" where \"username\" = $1 limit $2 - relation \"accounts\" does not exist","level":"error"}
+{"message":"select * from \"accounts\" where \"username\" = $1 limit $2 - relation \"accounts\" does not exist","level":"error"}
+{"message":"select * from \"accounts\" where \"username\" = $1 limit $2 - relation \"accounts\" does not exist","level":"error"}
+{"message":"Undefined binding(s) detected when compiling SELECT. Undefined column(s): [account] query: select * from \"contact\" where \"account\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling SELECT. Undefined column(s): [account] query: select * from \"contact\" where \"account\" = ?","level":"error"}
+{"message":"Cannot read property 'user_id' of undefined","level":"error"}
+{"message":"now is not defined","level":"error"}
+{"message":"now is not defined","level":"error"}
+{"message":"undefined is not iterable (cannot read property Symbol(Symbol.iterator))","level":"error"}
+{"message":"undefined is not iterable (cannot read property Symbol(Symbol.iterator))","level":"error"}
+{"message":"time_elapsed is not defined","level":"error"}
+{"message":"contacts.foreach is not a function","level":"error"}
+{"message":"AuthService.getUserWithUsername is not a function","level":"error"}
+{"message":"AuthService.getUserWithUsername is not a function","level":"error"}
+{"message":"select \"id\", \"first_name\", \"last_name\", \"company\", \"contact_date\", \"received_response\", \"phone\", \"email\" from \"contact\" where \"account\" = $1 - column \"contact_date\" does not exist","level":"error"}
+{"message":"path is not defined","level":"error"}
+{"message":"Invalid status code: 5","level":"error"}
+{"message":"db.from(...).select(...).where(...).all is not a function","level":"error"}
+{"message":"NoteService.getContactNotes is not a function","level":"error"}
+{"message":"Console.LOG is not a function","level":"error"}
+{"message":"Cannot read property 'id' of undefined","level":"error"}
+{"message":"Cannot read property 'id' of undefined","level":"error"}
+{"message":"Cannot read property 'id' of undefined","level":"error"}
+{"message":"insert into \"archive\" (\"account\", \"contact\") values ($1, $2) returning * - duplicate key value violates unique constraint \"archive_pkey\"","level":"error"}
+{"message":"insert into \"application\" (\"account\", \"application_date\", \"contact\") values ($1, $2, $3) returning * - invalid input syntax for type timestamp with time zone: \"true\"","level":"error"}
+{"message":"insert into \"application\" (\"account\", \"application_date\", \"contact\") values ($1, DEFAULT, $2) returning * - duplicate key value violates unique constraint \"application_pkey\"","level":"error"}
